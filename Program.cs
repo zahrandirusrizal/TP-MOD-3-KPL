@@ -10,7 +10,10 @@ namespace TPMOD3
     {
         static void  Main(string[] args)
         {
-            Console.WriteLine("Hello World"); 
+            KodePos.Kelurahan kelurahan_masukan = KodePos.Kelurahan.Batununggal;
+            System.Console.WriteLine(KodePos.getKodePos(kelurahan_masukan));
+
+
         }
     }
 
