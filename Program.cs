@@ -13,6 +13,9 @@ namespace TPMOD3
             KodePos.Kelurahan kelurahan_masukan = KodePos.Kelurahan.Batununggal;
             System.Console.WriteLine(KodePos.getKodePos(kelurahan_masukan));
 
+            DoorMachine testMesin = new DoorMachine();
+            Console.WriteLine("State Saat Ini : " + testMesin.PintuSaatIni);
+            testMesin.aktivasiAksi(DoorMachine.Aksi.BukaPintu);
 
         }
     }
